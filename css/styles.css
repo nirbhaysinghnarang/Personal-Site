@@ -13,7 +13,7 @@ html {
 	z-index: 10;
 	left: 0;
 	top:0;
-	background-color:#00a152;
+	background-color:white;
 }
 
 .wrapper-main-second{
@@ -23,7 +23,7 @@ html {
 	z-index: 10;
 	left: 0;
 	top:100%;
-	background-color:#00a152;
+	background-color:white;
 }
 
 .wrapper-main-third{
@@ -33,7 +33,7 @@ html {
 	z-index: 10;
 	left: 0;
 	top:0;
-	background-color:#00a152;
+	background-color:white;
 }
 
 
@@ -44,7 +44,7 @@ html {
 	z-index: 10;
 	left: 0;
 	top:0;
-	background-color:#00a152;
+	background-color:white;
 }
 
 .wrapper-main-fifth{
@@ -54,7 +54,7 @@ html {
 	z-index: 10;
 	left: 0;
 	top:0;
-	background-color:#00a152;
+	background-color:white;
 }
 
 .center h2 {
@@ -66,14 +66,16 @@ html {
 
 .center h2:nth-child(1) {
 	color: transparent;
-	-webkit-text-stroke: 2px white;
+	-webkit-text-stroke: 2px #B31B1B;
 }
 
 .center h2:nth-child(2) {
-	color: white;
+	color: #B31B1B;
 	animation: animate 4s ease-in-out infinite;
 }
-
+#grad-year{
+	color:#B31B1B;
+}
 @keyframes animate {
 	0%,
 	100% {
@@ -153,7 +155,7 @@ html {
 	position: absolute;
 	bottom: 10%;
 	left: 50%;
-	color: white;
+	color: #B31B1B;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
@@ -170,11 +172,11 @@ html {
 
 .sub-head{
 	font-size: 35px;
-	color: white!important;
+	color: #B31B1B!important;
 }
 
 #arrow{
-	color:white;
+	color:#B31B1B;
 }
 
 .navbar{
@@ -200,7 +202,7 @@ html {
 }
 
 .head-anim{
-	color: white;
+	color: #B31B1B;
 }
 .arrow{
 	margin: 0;
@@ -211,7 +213,7 @@ html {
 	transform: translate(-50%, -50%);
 }
 #progress-arrow{
-	color: white;
+	color: #B31B1Br;
 	transition: 0.5s;
 	margin-top: 10px;
 	padding-right:10px;
@@ -220,12 +222,12 @@ html {
 #progress-arrow:hover{
 	cursor: pointer;
 	transition: 0.5s;
-	color:#124116;
+	color:black;
 }
 
 .content-wrapper-third{
 	padding-left:30px;
-	color: white;
+	color: #B31B1B;
 }
  .dialogue{
 	margin-top: 15px;
@@ -240,7 +242,7 @@ html {
 	margin-top: 30px;
 }
 #ok-arrow{
-	color:white;
+	color:#B31B1B;
 }
 
 i{
@@ -364,7 +366,7 @@ blockquote:after {
 	font-family: 'Nunito', sans-serif!important;
 }
 .card-link{
-	color:#00a152!important;
+	color:#B31B1B!important;
 	text-decoration: none;
 }
 .card-img-top{
@@ -434,7 +436,7 @@ blockquote:after {
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  background: #00a152;
+  background: #B31B1B;
   animation: animate_second 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .info span{
@@ -575,4 +577,8 @@ footer{
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+.icon-3d{
+	color:#B31B1B;
 }

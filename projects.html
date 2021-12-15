@@ -19,38 +19,43 @@
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>		<script type="text/javascript" src="js/anim.js"> </script>
   </head>
+  <style>
+  .card-group{
+    padding-bottom: 50px;
+  }
+  </style
   <body>
 
 		<div class="wrapper-main-fourth" id="fourth">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			  <a class="navbar-brand" href="#">
-					<img src="assets/favicon_io/favicon.ico" width="50" height="50" alt="">
-			  </a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="assets/favicon_io/favicon.ico" width="50" height="50" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav mr-auto">
-			     <li class="nav-item ">
-			        <a class="nav-link" href="home.html">Home </a>
-			     </li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+         <li class="nav-item ">
+            <a class="nav-link" href="home.html">Home </a>
+         </li>
 
-					<li class="nav-item">
-						 <a class="nav-link" href="http://nirbhaynarang.in/">Blogging</a>
-					 </li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Projects</a>
-					</li>
-					<!-- <li class="nav-item">
-					 <a class="nav-link" href="experience.html">Experience</a>
-				 </li> -->
-				 <li class="nav-item">
-					<a class="nav-link" href="connect.html">Connect</a>
-				</li>
-			    </ul>
-			  </div>
-			</nav>
+        <li class="nav-item">
+           <a class="nav-link" href="http://nirbhaynarang.in/">Blogging</a>
+         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="experience.html">Experience</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="connect.html">Connect</a>
+      </li>
+        </ul>
+      </div>
+    </nav>
 			<h1 class="heading-fourth"> My Projects </h1>
 			<div class="card-group second-card-group">
 				<div class="card" style="width: 18rem;">
@@ -98,7 +103,6 @@
 				  </ul>
 				  <div class="card-body">
 				    <a href="https://seespeech.netlify.app/" class="card-link">Website</a>
-				    <!-- <a href="https://github.com/nirbhaysinghnarang/inventree-ios" class="card-link">Code</a> -->
 				  </div>
 				</div>
 				<div class="card" style="width: 18rem;">
@@ -213,6 +217,37 @@
 					</div>
 				</div>
 			</div>
+
+
+      <div class="card-group">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/hero-img.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">FindMyParty</h5>
+            <p class="card-text">Find, host, view parties near you.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Flask Backend</li>
+            <li class="list-group-item">UI built with AutoLayout</li>
+            <li class="list-group-item">#2 Best Overall in the Cornell AppDev Hack Challenge</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://github.com/nirbhaysinghnarang/find_my_party" class="card-link">Code</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/alien.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Invaders</h5>
+            <p class="card-text">CS 1110 Final Project</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">2D game in Python</li>
+            <li class="list-group-item">10+ extra features</li>
+            <li class="list-group-item">Awaiting grade.</li>
+          </ul>
+        </div>
+      </div>
 
 		</div>
 
